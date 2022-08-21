@@ -1,0 +1,93 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calc-shell{
+    width: 400px;
+    border: solid;
+    height:500px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(5,1fr);
+}
+.calc-display{
+    background-color: #7E8485;
+    display: flex;
+    justify-content: center;
+    border: solid;
+    align-items: center;
+    grid-column: span 5;
+}
+.display{
+    background-color: white;
+    width: 70%;
+    height: 75%;
+    border:solid;
+    text-align: center;
+}
+
+#num{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    width: 100%;
+    height: 100%;
+}
+
+.equal button{
+    background-color: #455254;
+}
+.equal button:hover{
+    background-color: #394344;
+}
+.clear button{
+    background-color: #EBB258;
+}
+.clear button:hover{
+    background-color: #F3A327;
+}
+.clear{
+    grid-column: span 2;
+}
+#op button{
+    background-color: #6060BA;
+}
+#op button:hover{
+    background-color:#4949B6;
+}
+#num button{
+    background-color: #696C6D ;
+}
+#num button:hover{
+    background-color:  #505354 ;
+}
+.zero{
+    grid-column: span 2;
+}
+button{
+    color: white
+}
+.del{
+    grid-column: span 2;
+}
+.del button{
+    background-color: #455254;
+
+}
+.del button:hover{
+    background-color: #394344;
+}
+.display{
+    font-size: larger;
+}
+
+
